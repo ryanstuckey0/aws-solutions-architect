@@ -1,0 +1,3 @@
+- Can choose whichever region is closest
+- The region selector will show global if you are in a service that is available globally
+- 
