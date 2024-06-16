@@ -1,0 +1,7 @@
+- Do not use root account except for AWS account setup
+- One physical user = one AWS user
+- assign users to groups, assign permissions to groups
+- create strong password policy
+- use MFA
+- use roles to give permissions to AWS services
+- 

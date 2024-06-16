@@ -1,0 +1,4 @@
+- Cann attach policies to groups (recommend) or to individual users
+- Go to access management -> Policies to view all different policies, as well as JSON representation for each policy
+	- Can use \* wildcard to reference all actions and resources
+- We can also create new policies and attach specific permissions to the policy

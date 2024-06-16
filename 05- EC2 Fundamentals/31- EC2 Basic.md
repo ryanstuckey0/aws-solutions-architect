@@ -1,0 +1,27 @@
+- One of AWS' most popular offerings
+- EC2 = Elastic Compute Cloud
+- Composed of many different capabilites
+	- Renting VMs (EC2)
+	- Data storage on virtual drives (EBS)
+	- Load balancers (ELB)
+	- auto scaling with auto-scaling group (AGS)
+- Sizing and config options
+	- OS- Linux, Windows, MacOS
+	- Compute power and core- CPU
+	- Memory- RAM
+	- Storage
+		- Network attached (EBS and EFS)
+		- Hardware attached
+	- Network- Fast? Public IP?
+	- Firewall- security groups
+	- Bootstrap script- configured EC2 user data at launch
+- EC2 Bootstrap & User DAta
+	- Only launched when machine first starts
+	- Can automate boot tasks like installing software, updates, etc.
+	- Runs with root user
+- Instance Type (examples)
+	- t2.micro- 1 CPU, 1GB RAM, EBS Storage, low network perf.
+	- m5.8xlarge- 32 CPU, 128 GB RAM, EBS storage, 10Gbps network, 6800 Mbps EBS bandwidth
+	- t2.micro is included with AWS free tier
+		- 750 hours free per month (running full time in one month)
+		- 

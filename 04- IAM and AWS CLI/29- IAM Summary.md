@@ -1,0 +1,7 @@
+- AWS user groups can only contain users
+	- Cannot nest user groups
+- IAM policy statements consist of the following
+	- Effect- allow or deny
+	- principal- account/user/role that the policy applies to
+	- action- what user can do with resource
+	- resource- AWS resources that the action applies to

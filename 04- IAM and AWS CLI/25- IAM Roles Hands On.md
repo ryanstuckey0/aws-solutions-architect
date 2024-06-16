@@ -1,0 +1,5 @@
+- Five different types of roles we can create
+- Most important one to know is AWS Service role
+- Then choose which service and use case we want this role to apply to
+- We then attach permissions to roles like we do for groups/users
+- 

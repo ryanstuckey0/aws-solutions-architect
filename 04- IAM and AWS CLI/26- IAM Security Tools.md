@@ -1,0 +1,7 @@
+- IAM credentials report- created at account level
+	- report of account's users
+	- status of credentials
+- IAM credentials report (access advisor)- created at user level
+	- permissions granted to user
+	- when these services were last accessed
+	- can be used to see which permissions are not used

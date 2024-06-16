@@ -1,0 +1,8 @@
+- Some AWS services will perform actions on user behalf
+- IAM role will be used for this- we will assign permissions to AWS services with IAM roles
+- IAM roles are like uses, but not intended to be used by humans
+- Common roles
+	- EC2 instance roles
+	- Lambda roles
+	- CloudFormation
+- 

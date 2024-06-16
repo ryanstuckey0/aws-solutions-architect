@@ -1,0 +1,1 @@
+- Can define new password policy
