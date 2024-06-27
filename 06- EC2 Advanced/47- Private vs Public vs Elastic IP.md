@@ -1,0 +1,7 @@
+- We can only SSH into EC2 instance w/ public IP address, not public
+	- Unless you are on a VPN
+- Public IP will change when you stop and start an instance
+	- Private IP does not change
+- We can use an elastic IP to keep the same IP address over the stop and start of an instance
+	- Need to associate it to an instance and a private IP
+- Should release elastic IPs after done using them

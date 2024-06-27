@@ -1,0 +1,6 @@
+- EBS volumes are network drives- so they are limited in performance by the network availability
+- EC2 Instance stores are physically attached to server
+- Provides better I/O performance
+- Data is lost whenever an instance is **stopped or terminated**
+	- This makes it good for a buffer/cache/temporary data storage
+- If the server fails, the instance store will also fail

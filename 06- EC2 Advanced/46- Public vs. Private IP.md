@@ -1,0 +1,19 @@
+- IPv4- most commonly used
+	- Contains only numbers, 4 sets up to 0 up to 255
+- IPv6- more commonly used to solve problems related to IoT
+	- Combination of numbers and letters
+- IPv4 allows for 3.7 billion different addresses
+- Computers within a private network can all talk to each other
+	- These computers are behind an Internet gateway, which allows them to connect to other places on the Internet
+- Public IP means the machine can be ID'd on the Internet
+	- IP address is unique
+	- IP address related to geo-location
+- Private IP
+	- Machine can be only ID'd on private network
+	- IP is unique across private network
+- Elastic IPs
+	- A fixed public IP can be obtained through an elastic IP
+	- Can only be attached to one instance of a time
+	- Can only have 5 elastic IPs in account, but AWS can increase that
+	- Not recommended, a random public IP + DNS is better
+- 

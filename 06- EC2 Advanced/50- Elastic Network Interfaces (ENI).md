@@ -1,0 +1,11 @@
+- Represent a virtual network card within a VPC
+- Each ENI can have following attributes
+	- Primary private IPv4, one or more secondary IPv4
+	- One elastic IPv4 per private IPv4
+	- One public IPv4
+	- One or more security group
+	- a MAC address
+- Can be created independently of EC2 instances and move them to other EC2 instances
+- Each ENI is bound to 1 AZ
+- Good for failovers- if EC2 instance is accessed by private static IP but it fails, then the ENI can be moved to a healthy EC2 instance ![[Pasted image 20240624180437.png]]
+- 

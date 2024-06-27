@@ -1,0 +1,14 @@
+- Launch two EC2 instances
+- Under networking, we can find the network interfaces section
+- Each ENI has an ID, a public IPv4, private IPv4, and a private IPv4 DNS
+- From network interface page, can create a new network interface
+	- When creating a new ENI, select a subnet (linked to AZ) for it (has to be same as EC2 instance AZ)
+	- Can attach security group to ENI
+- Status for newly created ENI will show available
+- Can attach to EC2 instance after creating
+- Can then be moved between EC2 instances, and failover by moving to healthy instance
+- ENI created w/ EC2 instance creation will be auto deleted if the EC2 instance is terminated
+- Uses
+	- Can attach different security groups to each ENI,  allowing some traffic through on one but not on the other (like SSH on private network ENI, but not on public one)
+	- Link MAC address of ENI to software that is linked to MAC address, letting you move the license between EC2 instances
+	- Failover by moving ENI from failed instance to healthy instance

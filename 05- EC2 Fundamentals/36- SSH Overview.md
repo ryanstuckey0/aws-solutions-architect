@@ -1,0 +1,3 @@
+- Can connect to EC2 using various methods
+	- SSH is natively supported on Mac and Linux (and Windows >= 10)
+	- EC2 instance connect- uses web browser to connect over SSH

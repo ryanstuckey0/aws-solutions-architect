@@ -1,0 +1,5 @@
+- Amazon Linux 2 AMI comes with AWS CLI
+- Can run aws configure, but we shouldn't because anybody on account can retrieve our credentials from EC2 instance
+- We should use IAM roles instead
+- We can attach our demo role to EC2 instance
+	- Go to Actions -> Security -> Modify IAM role

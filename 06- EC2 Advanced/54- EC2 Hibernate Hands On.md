@@ -1,0 +1,4 @@
+- When launching an EC2 instance, we can select a message to enable hibernation when the instance is stopped
+	- When enabling, get a warning that we have to have enough storage to hold RAM
+	- Also have to encrypt root EBS volume
+- Can prove an instance is in hibernation by running uptime command

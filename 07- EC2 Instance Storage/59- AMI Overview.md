@@ -1,0 +1,14 @@
+- AMI stands for Amazon Machine Image
+- An AMI is a custom image for an EC2 instance
+	- Allows faster boot and configuration time from nothing since software, config, etc. is all packaged up already
+- AMIs are built for specific regions
+	- But can be copied to other regions
+- EC2 instances can be launched from AMIs from 3 different locations
+	- Public AMI- AWS provided
+	- Private AMI- created/maintained by user
+	- Marketplace AMI- someone else creates/maintains, and can sell for a price
+- Creating an AMI
+	- Start and customize an EC2 instance
+	- Stop the instance
+	- Create an AMI, which subsequently creates EBS snapshots
+	- Launch other instances from AMIs

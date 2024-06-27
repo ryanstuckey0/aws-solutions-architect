@@ -1,0 +1,13 @@
+- A couple options for EC2 instances
+	- Stop- data on disk (EBS) is kept intact
+	- Terminate- data is destroyed
+	- Hibernate- in memory/RAM is preservered
+		- Instance boots much fast
+		- Internally, the RAM is written to EBS (for this EBS volume must be encrypted)
+		- On startup, RAM is loaded from EBS
+		- EC2 instance behaves like it was never stopped
+		- Use case: good for long running processes, boot fast
+- Good to know
+	- Support lots of different instance types
+	- Instance RAM size must be less than 150 GB
+	- Instance cannot be hibernated more than 60 days

@@ -1,0 +1,8 @@
+- Only possible with io1 or io2 volume types
+- Can attach same volume to multiple EC2 instances within same availability zone
+- Each instance has full RW perms to volume
+- use cases
+	- Allows for higher app availability 
+	- applications must handle concurrent write operations (i.e., locking)
+- Can attach up to 16 EC2 instances at the same time
+- Must use a file system that is cluster aware (not XFS, EXT4, etc.)

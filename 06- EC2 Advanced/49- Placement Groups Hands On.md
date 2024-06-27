@@ -1,0 +1,1 @@
+- can choose how many partitions we want for partition group type

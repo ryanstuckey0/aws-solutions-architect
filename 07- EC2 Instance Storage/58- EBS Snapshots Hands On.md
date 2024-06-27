@@ -1,0 +1,5 @@
+- Can create snapshot directly in another region
+- Can create a volume directly from snapshot
+	- Target AZ can be in a different AZ than it was created in
+- Recycle bin can be used for both AMIs and snapshots
+	- Can lock recycle bin rules so only certain people can edit/unlock them

@@ -1,0 +1,15 @@
+- EBS volume- elastic block store; network drive to attach to EC2 instance while they run
+	- allows data to persist even after instance is terminated
+	- some EBS types support multi-attach feature 
+	- bound to specific AZ
+	- comparable to "network USB sticks"
+	- Free tier: 30 GB of EBs storage of type General purpose
+- network-based drives
+	- Uses network, so there may be a bit of latency
+	- Can be switched between EC2 instances in case of failover
+- Can take a snapshot of volume to move it across AZ
+- Have to specify capacity and IOPS when provisioning
+	- Can increase spec over time
+- Delete on termination is by default checked for the root EBS volume
+	- Other EBS volumes are not deleted by default
+	- Can disable delete on termination to save data on root volume

@@ -1,0 +1,2 @@
+- Allows the use of a browser based SSH session into the EC2 instance
+- 

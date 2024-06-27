@@ -1,0 +1,3 @@
+- Can see attached volumes under Storage tab in EC2 instance info
+- When creating a volume, can select volume type, size, AZ, encrypted, etc.
+- Go to actions -> attach volume -> select instance -> attach volume

@@ -1,0 +1,17 @@
+- Encrypting an EBS volume encrypts the following
+	- Data at rest inside the volume
+	- Data in flight moving between instance and volume
+	- Snapshots
+	- Volumes created from snapshot
+- Encryption and decryption is handled for you
+- Negligible impact on latency, so no reason to not encrypt
+- Uses KMS (AES-256)
+- How to encrypt and unencrypted EBS volume
+	- Create snapshot
+	- Encrypt the EBS snapshot
+	- Create new EBS volume from snapshot (subsequently, volume will also be encrypted)
+	- And now attach encrypted EBS volume to original instance
+	- Need to select a key from KMS when encrypting
+- If a snapshot is encrypted, you cannot create an unencrypted volume directly from it
+- Can also create encrypted volume directly from unencrypted snapshot
+- 
