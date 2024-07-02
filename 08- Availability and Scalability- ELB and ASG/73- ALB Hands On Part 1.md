@@ -1,0 +1,9 @@
+- can choose with AZ to deploy load balancer in
+- need to assign security group to LB
+	- want to allow HTTP traffic from anywhere
+- need to route LB to target group
+- creating a target group
+	- can select instances, IP addresses, Lambdas, or even other ALB
+	- choose protocol, port, HTTP version
+	- finally, register target instances on desired port
+- 

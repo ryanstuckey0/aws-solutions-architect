@@ -1,0 +1,13 @@
+- network load balancer (NLB) lives on layer 4
+- Used to forward TCP and UDP traffic to instances
+- Great for high performance tasks
+- Low latency (100ms vs 400ms for ALB)
+- NLB has one static IP per AZ, supports elastic IP
+	- Not included in AWS free tier
+- Target groups can be
+	- EC2 instances
+	- private IP addresses
+	- IP of your own server as well
+	- Application load balancer
+- health checks support TCP, HTTP, and HTTPS
+- 

@@ -1,0 +1,18 @@
+- scalability- application can adapt to handle greater load
+	- vertical- increase resources allocated to each instance
+	- horizontal- increase number of instances (aka elasticity)
+- vertical scalability
+	- common for a non-distributed system (like DB)
+	- Limited by hardware
+- horizontal scalability
+	- good for distributed systems
+	- common for web/modern apps
+- high availability
+	- usually goes hand in hand with horizontal scaling
+	- run app/system in 2 data centers (i.e., AZ)
+	- goal is to survive a datacenter loss
+- What does this mean in EC2?
+	- Vertical scaling- changing instance type up and down (scale up/down)
+	- horizontal scaling- increase number of instances (scale out/in)
+	- high availability- run instances of app across multiple
+- 
