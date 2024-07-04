@@ -6,7 +6,7 @@
 	- paths in URL 
 	- hostname of URL
 	- query string
-	- headers
+	- headers (implies can then route on protocol, IP address, etc.)
 - Great for containerized services
 - Has port mapping to redirect to dynamic port on EC2
 

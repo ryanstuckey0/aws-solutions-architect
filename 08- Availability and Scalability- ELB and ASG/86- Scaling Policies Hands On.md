@@ -1,0 +1,15 @@
+# 86- Scaling Policies Hands On
+- Set up in auto scaling groups section in EC2
+- Scheduled actions- schedule scaling action in future
+	- Can set to run once, or recur on set period
+- Predictive scaling- ML driven
+	- define metric and target for that metric
+- Dynamic scaling- scale based on rules
+	- can set with simple scaling, target scaling, or step scaling
+	- simple scaling
+		- must set cloudwatch alarm
+		- specify action
+	- step scaling
+	- target tracking
+		- creates cloudwatch alarms for you
+	- 
