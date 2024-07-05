@@ -15,7 +15,7 @@
 - no capacity planning
 - Pay per second- more cost-effective
 - Client talks to proxy fleet (managed by Amazon)
-  [image](Pasted image 20240704210007.png)
+  ![image](attachments/20240704210007.png)
 
 ## Global Aurora
 - two options for cross region
@@ -29,11 +29,11 @@
 		- Low latency
 		- Promoting another region to primary for DR takes <1 minute
 		- Cross-region replication takes < 1 second
-[image](Pasted image 20240704210246.png)
+![image](attachments/20240704210246.png)
 
 ## Aurora Machine Learning
 - Add ML based predictions to app via SQL
 - Simple, optimized, and secure integration between Aurora and ML services
 - Support AWS SageMaker and AWS Comprehend
 - Use cases- fraud detection, targeted ads, etc.
-[image](Pasted image 20240704210408.png)%%  %%
+![image](attachments/20240704210408.png)

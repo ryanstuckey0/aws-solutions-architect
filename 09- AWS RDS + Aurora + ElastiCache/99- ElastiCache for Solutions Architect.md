@@ -14,11 +14,11 @@
 - Session store- store temporary session data in cache
 - Caching is difficult
 
-Lazy loading:  [image](Pasted image 20240704224724.png)
+Lazy loading:  ![image](attachments/20240704224724.png)
 
 ## ElastiCache- Redis Use Case
 - Gaming leaderboard
 - Redis sorted sets- guarantees uniqueness and element ordering
 - Newly added elements are ranked in real time and added to correct order
-[image](Pasted image 20240704224831.png)
+![image](attachments/20240704224831.png)
 

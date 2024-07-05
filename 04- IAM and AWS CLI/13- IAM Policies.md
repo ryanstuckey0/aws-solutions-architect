@@ -12,4 +12,4 @@
 		- Action- list of actions allowed or denied by policy
 		- Resource- list of resources the action is applied to
 		- Condition- condition for when this policy is active (optional)
-[image](Pasted image 20240530191504.png)
+![image](attachments/20240530191504.png)

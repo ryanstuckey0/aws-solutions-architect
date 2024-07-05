@@ -13,7 +13,7 @@
 	- 3/6 copies needed for writes
 	- Self healing with P2P replication
 	- Storage is striped across 100s of volumes
-Example- data is stored across multiple AZ: [image](Pasted image 20240704204313.png)
+Example- data is stored across multiple AZ: ![image](attachments/20240704204313.png)
 
 - One Aurora instance handles writes, failover from master happens in less than 30 seconds
 - Can have master + up to 15 read replicas
@@ -25,7 +25,7 @@ Example- data is stored across multiple AZ: [image](Pasted image 20240704204313.
 - AWS provides a **writer endpoint**, that will auto move to correct master instance even through failovers
 - Read replicas can also be setup with autoscaling
 - **Reader endpoint**- one endpoint that load balances between all replicas; happens per connection, not per statement / query
-[image](Pasted image 20240704204617.png)
+![image](attachments/20240704204617.png)
 
 ## Features of Aurora
 - Auto failover

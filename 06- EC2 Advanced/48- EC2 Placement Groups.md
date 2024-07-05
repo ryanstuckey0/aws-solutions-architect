@@ -17,6 +17,6 @@
 	- Cons: 
 	- Use case: big data applications, Kafka, distributed apps
 
-A helpful StackOverflow article- [image](Pasted image 20240626210635.png)
+A helpful StackOverflow article- ![image](attachments/20240626210635.png)
 
 From this question on [StackOverflow](https://stackoverflow.com/questions/56447086/aws-ec2-placement-groups-partition-vs-spread)

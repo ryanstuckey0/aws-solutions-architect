@@ -4,7 +4,7 @@
 - Spot block- block a spot instance for a specified time frame
 	- No longer available in AWS as of 2022/12/31
 - Useful for batch jobs, data analysis
-- Spot instance pricing compared to on demand: [image](Pasted image 20240620164822.png)
+- Spot instance pricing compared to on demand: ![image](attachments/20240620164822.png)
 
 ## Spot Instance Termination
 - Spot request- define how many instances, max price, launch spec, one-time or repeated, valid from and until

@@ -13,4 +13,4 @@
 - EC2 instances
 - private IP addresses
 
-Diagram of functionality: [image](Pasted image 20240704145730.png)
+Diagram of functionality: ![image](attachments/20240704145730.png)
