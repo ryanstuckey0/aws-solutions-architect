@@ -1,0 +1,11 @@
+# 96- RDS Proxy
+- Fully managed database proxy for RDS
+- Allow apps to pool and share DB connections
+- Useful if you have a lot of connections into DB, improving efficiency and reducing timeouts
+- Proxy- serverless, autoscaling, multi-AZ
+- Reduces failover times by up to 66%
+- Supports RDS (MySQL, PostgresSQL, MariaDB, MS SQL Server) and Aurora (MySQL and PostgreSQL)
+- No code changes required- just connection string
+- Enforces IAM auth for DB
+- Never publicly accessible
+- Useful for lambda functions- proxy will pool connections for many lambda functions and avoid overloading the DB

@@ -1,5 +1,5 @@
 - Backup at any point in time of EBS volume
-- No need to detach from EC2 instance, but is recceommended
+- No need to detach from EC2 instance, but is recommended
 - Can move snapshots across AZ
 - EBS snapshot archive
 	- Can move snapshots to archive tier that is ~75% cheaper

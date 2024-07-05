@@ -1,0 +1,12 @@
+# 95- RDS Security
+- Support at rest encryption
+	- Master and replicas are encrypted using AWS KMS
+	- Must be turned on at launch time
+	- If master is not encrypted, read replicas cannot be encrypted
+	- To encrypt an un-encrypted database, must go through DB snapshot and then restore as encrypted (similar to EBS volumes)
+- In-flight encryption
+	- TLS-ready by default, clients must use AWS TLS root certs
+- IAM Authentication- can use IAM roles to connect to DB (in addition to basic auth)
+- Security groups can be used to control network access to DB
+- Audit logs can be enabled and sent to CloudWatch Logs for longer retention
+- 

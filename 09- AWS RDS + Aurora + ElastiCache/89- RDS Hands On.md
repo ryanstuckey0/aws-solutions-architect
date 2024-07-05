@@ -1,0 +1,24 @@
+# 89- RDS Hands On
+- Can use standard create or easy create
+- Available engines include- Aurora, MySQL, MariaDB, PostgreSQL, Oracle, Microsoft SQL server
+- Can use template to meet use cases- Production, Dev/Test, or Free tier
+- Options- MySQL
+	- Availability and durability 3 options
+		- single DB instance- self explanatory
+		- multi-AZ DB instance- one primary instance, one standby instance (can't read from it though)
+		- multi-AZ DB cluster- one primary instance, two standby instance and can read from both
+	- instance configuration- size of underlying EC2 instance
+	- Storage type- use io1 in prod, or gp2 in lower envs
+	- enable/disable storage autoscaling, and set maximum storage threshold
+	- Connectivity
+		- can setup an EC2 compute resource to auto configure security
+		- enable/disable public access
+		- setup new/existing security group
+		- can choose preferred AZ
+	- DB authentication- basic auth, IAM auth, or Kerberos
+	- Enable/disable monitoring
+	- can enable or disable auto backups
+		- can also select back up window
+	- choose which logs to export to CloudWatch logs
+	- deletion protection can also be enabled
+- 

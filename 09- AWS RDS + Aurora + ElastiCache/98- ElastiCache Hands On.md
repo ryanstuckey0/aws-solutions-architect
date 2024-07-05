@@ -1,0 +1,27 @@
+# 98- ElastiCache Hands On
+
+- Create Redis cache
+- Options
+	- Deployment options
+		- Serverless- autoscales to meet traffic demand
+		- Design your own
+	- Creation method
+		- Create new- some configured for you
+		- Cluster cache- configure everything
+		- Restore from backup
+	- Cluster mode- enable to have multiple shards across multiple servers
+	- Location- can select AWS cloud or on-prem via Outpost
+	- Multi-AZ- enable or disable
+	- Auto-failover
+	- Cluster settings- Engine, port, node type, # replicas
+	- Subnet group settings
+		- Create a new subnet group- choose VPC, select subnets (AZ)
+		- select AZ placement
+	- Encryption at rest- needs key
+	- Encryption in transit- if enabled need to specify access control via token or user group
+	- Security groups to manage which apps have access to cluster on network
+	- Backup- yes or no
+	- Maintenance- specify window
+	- Logs- send to CloudWatch Logs
+- Provides primary and reader endpoints
+- Looks very similar to RDS
