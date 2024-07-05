@@ -37,5 +37,5 @@
 
 # Summary
 - helpful info: https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html
-- SSD volumes: ![[Pasted image 20240626195834.png]]
-- HDD volumes: ![[Pasted image 20240626195851.png]]
+- SSD volumes: [image](Pasted image 20240626195834.png)
+- HDD volumes: [image](Pasted image 20240626195851.png)

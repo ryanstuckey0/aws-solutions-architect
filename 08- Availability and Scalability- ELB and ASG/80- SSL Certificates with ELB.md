@@ -25,7 +25,7 @@
 	- Server finds the correct certificate
 - Only works for ALB, NLB, and CloudFront
 - Does not work with CLB
-![[Pasted image 20240704153751.png]]
+[image](Pasted image 20240704153751.png)
 
 ## ELB Support for SSL certificates
 - CLB only supports one SSL certificate

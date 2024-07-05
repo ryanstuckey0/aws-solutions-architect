@@ -25,5 +25,5 @@
 		- Good for tasks that require high I/O speeds and access to large datasets, like high frequency online transaction processing
 		- name starts with I/D/H
 - Instance type comparison
-  ![[Pasted image 20240619101808.png]]
+  [image](Pasted image 20240619101808.png)
 - Useful website to compare instances- https://instances.vantage.sh/

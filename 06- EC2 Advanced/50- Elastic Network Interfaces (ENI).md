@@ -7,5 +7,5 @@
 	- a MAC address
 - Can be created independently of EC2 instances and move them to other EC2 instances
 - Each ENI is bound to 1 AZ
-- Good for failovers- if EC2 instance is accessed by private static IP but it fails, then the ENI can be moved to a healthy EC2 instance ![[Pasted image 20240624180437.png]]
+- Good for failovers- if EC2 instance is accessed by private static IP but it fails, then the ENI can be moved to a healthy EC2 instance [image](Pasted image 20240624180437.png)
 - 

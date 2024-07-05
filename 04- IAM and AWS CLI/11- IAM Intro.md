@@ -11,5 +11,5 @@
 - IAM policies
 	- Formatted as JSON documents
 	- Applies to all users in a group:
-	  ![[Pasted image 20240530191530.png]]
+	  [image](Pasted image 20240530191530.png)
 - Utilize principle of least privilege

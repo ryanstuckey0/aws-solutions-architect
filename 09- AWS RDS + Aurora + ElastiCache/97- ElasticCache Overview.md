@@ -11,7 +11,7 @@
 - Needs to read from DB if not available in DB
 - Then, write to cache so same query is available next time
 - Need to have cache invalidation to make sure data in there is current
-![[Pasted image 20240704223147.png]]
+[image](Pasted image 20240704223147.png)
 
 ### User Session Store
 - user will log into anyone of supported applications
@@ -38,4 +38,4 @@
 ### Summary
 Redis = high availability, important data we'd rather not lose
 Memcached = high performance, data can be lost
-![[Pasted image 20240704223748.png]]
+[image](Pasted image 20240704223748.png)

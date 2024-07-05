@@ -66,7 +66,7 @@
 - Hardware may be shared with other instances in **same account**
 - No control over instance placement
 - Similar to dedicated hosts, but this has multiple instances on one host
-  ![[Pasted image 20240620163936.png]]
+  [image](Pasted image 20240620163936.png)
   - Dedicated hosts allows access to physical host itself and low level hardware
 
 ## EC2 Capacity Reservations
@@ -76,5 +76,5 @@
 - Good for short-term, uninterruptible workloads
 
 ## Choosing the best options
-![[Pasted image 20240620164351.png]]
-Resort comparison: ![[Pasted image 20240620164434.png]]
+[image](Pasted image 20240620164351.png)
+Resort comparison: [image](Pasted image 20240620164434.png)

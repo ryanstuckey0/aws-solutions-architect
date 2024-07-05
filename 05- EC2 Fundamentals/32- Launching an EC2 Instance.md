@@ -10,7 +10,7 @@
 	- instance will get public IP by default
 	- Creates new security group that allows SSH traffic from anywhere
 	- Also check box to allow HTTP traffic
-	  ![[Pasted image 20240616121756.png]]
+	  [image](Pasted image 20240616121756.png)
 - Leave storage at default
 	- EBS storage will be deleted at instance termination
 - Advanced config

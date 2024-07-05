@@ -4,7 +4,7 @@
 	- Second AZ has 8 EC2 instances
 - Auto cross zone load balancing is available
 	- So traffic will be split between all registered EC2 instances, regardless of AZ
-- Without cross zone load balancing, traffic is split 50/50 between each LB and EC2 instances in AZ1 receive much more traffic ![[Pasted image 20240704152258.png]]
+- Without cross zone load balancing, traffic is split 50/50 between each LB and EC2 instances in AZ1 receive much more traffic [image](Pasted image 20240704152258.png)
 
 - Varies depending on LB type
 	- Enabled by default for ALB, but can be disabled at target group level

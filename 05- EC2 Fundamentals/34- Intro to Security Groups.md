@@ -19,7 +19,7 @@
 ## Referencing security groups from other security groups
 - Attaching security groups to an EC2 instance can allow those instances to connect to other EC2 instance with those groups also attached
 	- Means we don't have to think about IPs, just security groups
-	  ![[Pasted image 20240619102618.png]]
+	  [image](Pasted image 20240619102618.png)
 
 ## Ports to Know
 - 22 = SSH (secure shell)
