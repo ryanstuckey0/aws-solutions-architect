@@ -1,0 +1,11 @@
+# 109- Routing Policies- Weighted
+- Control the % of requests that go to each specified resource
+- Can add weights to each resource, don't have to all be same value: ![](attachments/Pasted%20image%2020240706133305.png)
+- Weights don't need to sum up to 100
+- DNS records must have same name and type
+- Can be associated with health checks
+- Useful for load balancing between regions, testing new application version (with small percentage of requests)
+- Set weight to 0 to stop sending requests
+- Or if all weights are 0, then treats it like a simple routing policy (all records return by DNS server)
+-  Create multiple records with same name, set policy to weighted, and specify weight
+- 

@@ -1,0 +1,16 @@
+# 112- Health Checks Hands On
+- Specify health check type
+	- Endpoint
+		- IP address or domain name
+		- Path
+		- Port
+	- Calculated
+		- Select other health checks to monitor
+		- number of health checks to report health for
+	- cloudWatch alarm
+		- Region
+		- Alarm instance
+	- All
+		- Request interval, failure threshold, string matching, invert, customize regions
+		- can create alarms when health check fails
+- 

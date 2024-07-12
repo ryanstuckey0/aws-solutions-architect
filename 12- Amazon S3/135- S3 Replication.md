@@ -1,0 +1,12 @@
+# 135- S3 Replication
+- CRR and SRR
+- CRR- cross-region replication
+- SRR- same region replication
+- must enable versioning in source and destination
+- buckets can be in different AWS accounts
+- Copying is asynchronous
+- Must give IAM permissions so S3 service can read and write for replication
+- Use case
+	- CRR- compliance, lower latency, replication across accounts
+	- SRR- log aggregation, live replication between prod and test accounts
+	- 

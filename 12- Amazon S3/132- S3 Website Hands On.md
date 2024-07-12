@@ -1,0 +1,3 @@
+-  Go into Properties -> Static website hosting
+- Enable, and specify index document 
+- After enabling, there will be a static website endpoint

@@ -1,0 +1,7 @@
+- After enabling replication, only new objects are replicated
+- Need to use **S3 Batch Replication** feature to replicate existing operations
+- for delete operations
+	- can replicate delete markers from source to target (optional)
+	- Deletes with a version ID are not replicated (to avoid malicious deletes)
+- No chaining of replications
+- **Versioning must be enabled**

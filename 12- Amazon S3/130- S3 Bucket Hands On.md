@@ -1,0 +1,6 @@
+- Go to bucket -> permissions tab
+- Edit block public access setting
+- Can use AWS policy generator to create policy
+- Bucket name in policy must be of format: `arn:aws:s3:::${BucketName}/${KeyName}`
+	- Follow name with `/*` to apply to all objects in bucket
+- Gives a warning after creating a public access policy
