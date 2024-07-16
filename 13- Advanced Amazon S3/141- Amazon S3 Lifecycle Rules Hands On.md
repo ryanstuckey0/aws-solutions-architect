@@ -1,0 +1,6 @@
+- Select rule name, and scope (all objects or filter)
+	- Acknowledge warning about applying to all
+- Also specify which versions we want to move (current, noncurrent, etc.)
+- Then specify each transition and after how many days
+- Can set expiry time down at bottom
+- 
