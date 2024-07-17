@@ -1,0 +1,12 @@
+# 151- S3 Encryption Hands On
+- Default encryption- SSE-S3 is auto-enabled
+- Editing objects creates a new version of object with updated encryption settings
+- Can also override encryption settings at the object level
+- When enabling SSE-KMS
+	- Need to choose KMS key, or create a new one
+	- If you use the default S3 key for the service, it will not cost any money
+- After enabling, can see new version of file created
+- Encryption settings can also be changed at the bucket level post-creation
+	- When using SSE-KMS, can also enable Bucket Key, which uses an S3 Bucket Key to lower calls to KMS (enabled by default)
+- SSE-C can only be done from CLI, not web console
+- Client side encryption also can't be enabled console (because of the nature of it)
