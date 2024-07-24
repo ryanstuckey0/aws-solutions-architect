@@ -1,0 +1,11 @@
+# 165- CloudFront + S3 Hands On
+- Create S3 bucket
+- Can use CloudFront to make files accessible w/o making them publi
+- Go to CloudFront
+	- Notice that it's a global service
+- In CloudFront, choose the following
+	- origin domain- S3 buckets, ELB, etc.
+	- origin path- optional, will append to origin domain name
+	- origin access- can choose public (where bucket is public), origin access control (recommended)
+		- Can create a new one easily
+		- Need to update S3 bucket policy so CloudFront can access bucket
