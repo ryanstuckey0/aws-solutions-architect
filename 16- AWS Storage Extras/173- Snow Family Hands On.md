@@ -1,0 +1,16 @@
+# 173- Snow Family Hands On
+- Can select use cases when requesting Snow
+	- Import into Amazon S3
+	- Export from Amazon S3
+	- Local compute and storage
+	- Import virtual tapes into AWS Storage Gateway
+- Then select device- Snowcone, Snowball Edge 
+- Choose pricing option- on demand (per day, monthly, 1 year, 3 year)
+- Can choose an AMI to load onto device
+- Select which S3 buckets to import data into
+- IoT Greengrass for Snow- to add IoT capabilities 
+- Remote device management via OpsHub
+- Encryption- can add an AWS KMS key
+- Create service role to grant access to S3
+- Add address
+- Add info for SNS notifications

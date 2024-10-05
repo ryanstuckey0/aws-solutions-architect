@@ -1,0 +1,15 @@
+# 181- Storage Options Comparison
+- S3- object storage
+- S3- Glacier- archive objects long term
+- EBS volumes- attach to EC2 instance (generally one at a time)
+- Instance storage- physically attached storage to EC2 instance
+- EFS- network file system, available to mount on multiple devices
+- FSx for Windows File Server- Windows file system
+- FSx for Lustre- high performance for Linux
+- FSx NetApp ONTAP- high OS support
+- FSx for OpenZFS- managed ZFS file system
+- Storage gateway- move data from on-prem servers to native cloud apps
+- Transfer family- Provides FTP, FTPS, SFTP 
+- Datasync- Schedule data sync from on-prem/other cloud to AWS, or between AWS services
+- Snow devices- snowcone, snowball, snowmobile
+- Database- for specific workloads

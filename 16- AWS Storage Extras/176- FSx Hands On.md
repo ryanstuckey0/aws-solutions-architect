@@ -1,0 +1,14 @@
+# 176- FSx Hands On
+- Create file system- choose options
+	- NetApp ONTAP
+		- High performance, compatible w/ wide variety of OS
+	- OpenZFS
+		- 
+	- Windows File Server
+		- Uses SMB
+		- Choose multi-AZ or single-AZ
+		- Can also enable Windows authentication with AD integration
+		- Other options- encryption, auditing
+	- Lustre
+		- Can choose storage type (SSD, HDD, persistent, scratch), performance, encryption
+- 
