@@ -1,0 +1,12 @@
+# 205- ECS Auto Scaling
+- Auto scale # of ECS tasks
+- Can scale on CPU, memory, or request count / target from ALB
+- Can also set up target tracking, step scaling, scheduled scaling
+- ECS Service Atuo Scaling (task level) != EC2 auto scaling (EC2 instance level)
+	- Because of this, using Fargate is much easier
+- How can we scale EC2 instances in backend?
+	- Could use Auto Scaling Group
+		- Scale on CPU utilization
+	- Or ECS Cluster Capacity Provider
+		- Intelligently scales infra based on ECS tasks and the resources they require
+		- If you add more ECS tasks and don't have enough resources, then it'll scale EC2 instances

@@ -1,0 +1,20 @@
+# 204- Creating ECS Service Hands On
+- Need to first create a new task definition
+- Specify name
+- Choose where to launch instances- Fargate or EC2
+	- Seems tasks creation is independent of ECS clusters
+- Specify resource allocations (CPU/memory)
+- Specify task role (IAM role)
+- Tasks can have multiple containers, but at least one must be marked as essential
+	- specify port mappings, env vars, resource limits, logging, but most if okay to leave at default
+- Specify storage (21 GB default)
+- After creating task, we can go to our cluster and launch it as a service
+	- Application type can be service or task- where service is long running (i.e., API server) and Task is a short lived service than runs once then terminates (i.e., batch job)
+	- Choose ttask definition- each task instance is a family, and then can choose desired revision from that task family
+	- Service type- replica or daemon
+- Networking- security group, subnets, inbound rules
+- Load balancing- can create new one while making new service
+- Can also configure service auto scaling and task placement
+- Can launch multiple instances of tasks in same service
+	- Application load balancer then kicks in a distributes load between task instances
+	- Can scale task down to 0 instances 

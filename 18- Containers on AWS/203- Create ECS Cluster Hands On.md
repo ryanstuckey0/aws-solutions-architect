@@ -1,0 +1,11 @@
+# 203- Create ECS Cluster Hands On
+- Select infrastructure- Fargate, EC2, or external instances using ECS anywhere
+	- ECS Anywhere- use your own datacenter while running AWS ECS on it
+	- Can select more than one option
+- EC2 instances
+	- can configure auto scaling group (or create new), instance types, AMI, min/max capacity, SSH key pair
+- Network settings- VPS, subnets, security groups
+- Capacity providers- controls how containers are allocated to available compute resources; when creating containers, they will get launched on anything listed in the capacity providers
+	- Fargate- regular provider
+	- Fargate Spot- similar to EC2 Spot instances
+	- EC2 provider- provides EC2 instances as compute resources
