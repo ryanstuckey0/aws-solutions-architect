@@ -1,0 +1,18 @@
+# 198- SQS vs SNS vs Kinesis
+- SQS
+	- SQS consumer pull data
+	- Consumers delete data after processing
+	- Can enable FIFO to guarantee ordering
+	- Can have visibility timeout to handle processing failures
+- SNS
+	- All subscribers receive same message
+	- Data is not persisted
+	- Can use fan out architecture (data -> SNS -> SQS)
+	- Can use SNS FIFO -> SQS FIFO Queues
+- Kinesis Data Stream
+	- Parallel streaming via shards
+	- Can replay data
+	- Meant for real time big data
+	- Ordering on each shard
+	- Data is retained for so many days (1-365)
+	- can us provisioned mode or on-demand mode

@@ -1,0 +1,11 @@
+# 183- SQS Hands On
+- Can either make a standard queue (at least once delivery, best effort ordering) or a FIFO queue
+	- can't change queue type after creating
+- can configure things like visibility timeout, delivery delay, etc
+- Other config
+	- enable/disable at-rest encryption- can use Amazon manage SQS key (SSE-SQS), or choose one from KMS
+	- Access policy- define who can send/receive messages to/from queue
+- After creating, we have the ability to send and receive messages from the UI
+- By default, consumers have 30 s to process message; if message is not completely processed by the time it ends, then messages will go back into the queue
+	- Once we delete the message from the queue, it will stop showing up in the queue and consumers will not receive it again
+- Can purge queue to delete all messages

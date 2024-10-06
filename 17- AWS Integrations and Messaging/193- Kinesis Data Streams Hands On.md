@@ -1,0 +1,13 @@
+# 193- Kinesis Data Streams Hands On
+- Select type (Kinesis Data Streams, Kinesis Data Firehose, Kinesis Data Analytics)
+- Select On-demand or provisioned
+	- Includes a shard estimator (max shards available is based on account, can request limit increase)
+- Provides libraries to produce to data stream- Kinesis Producer Library is a high level library, AWS SDK also available, or Kinesis agent is a stand alone app
+- Can also produce to data stream using AWS CLI
+- Can also use AWS CLI to read
+	- When using CLI, we have to specify shard ID to read from
+		- When using Kinesis Client Library, we don't need to specify shard ID
+		- Shard iterator type- TRIM_HORIZON means read records from very beginning (i.e. earliest available record)
+		- Returns a shard iterator, which is used to read records by making another call with this value passed in
+			- Returns batched records, including data (base64 encoded), partition key, etc.
+			- Also returns next shard iterator, which we will use next time we consume to ensure we only get new messages
