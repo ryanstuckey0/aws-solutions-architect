@@ -1,0 +1,14 @@
+# 216- Lambda Hands On
+- Lambda auto scales as there are more requests coming it; it will just spin up another instance of the running code for each request coming in
+- When creating a function, can choose to create it from scratch, use a blueprint, or a container image
+- Can choose to create a new IAM role
+- Looks like event info being sent in is usually just a JSON document
+- After creating code, we can see the runtime as well as memory used
+- Available configuration
+	- Can adjust memory between 128 MG - 10240 MB (10GB)
+	- Can adjust timeout (default is 3 seconds)
+- Can also view metrics on how often it gets invoked, memory user, runtime, etc.
+	- Can also jump to CloudWatch to view logs
+- After making code changes, have to deploy them for it to be active in Lambda
+- Can adjust the python version, and the selected function to handle the Lambda request (format is `python_file.function_in_file`)
+- 

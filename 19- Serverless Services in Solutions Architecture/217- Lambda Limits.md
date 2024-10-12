@@ -1,0 +1,12 @@
+# 217- Lambda Limits
+- Limits are per region
+- Execution limits
+	- Memory can be allocated between 128 MB - 10 GB (1 MB increments)
+	- Max execution time- 900 seconds
+	- Env vars limited to 400 KB
+	- There is some disk capacity in the function runtime container (in /tmp)- 512 MB - 10 GB
+	- Up to 1000 functions can be concurrently executing (can be increased)
+- Deployment
+	- Compressed zip of lambda function is limited to 50 MB
+	- Uncompressed zip is limited to 250MB
+		- /tmp space can be used for big files that exceed this limit

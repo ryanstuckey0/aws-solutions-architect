@@ -1,0 +1,17 @@
+# 226- API Gateway Hands On
+- When creating new gateway, can choose API type (REST, HTTP, WebSocket)
+- Can create new one, import (from OpenAPI), clone existing, or from an example
+- Need to select endpoint type- edge, regional, or private
+- Once API is create, need to create methods first
+	- Method type- HTTP verbs
+	- Choose integration type- Lambda, HTTP, Mock, AWS Service, or VPC links
+	- Choose region, service
+	- default timeout is 29 seconds (max)
+	- Auto grants API gateway the right to invoke lambda function- check in permissions for Lambda function
+	- Can test Lambda function right from web console
+- API Gateway will pass information onto the Lambda function
+- Can create new resources (new paths in request)
+	- Within each resource, we can then add requests for each of the standard HTTP methods
+- Must deploy API gateway before it can be used outside of AWS console
+	- Need to select stage (similar to env?)
+	- 
